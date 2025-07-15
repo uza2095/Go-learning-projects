@@ -1,7 +1,7 @@
 package main
 import "fmt"
 func validity(score int) bool{
-	check:=score>=0 && score<=100gi
+	check:=score>=0 && score<=100
 	return check
 }
 func AvgCalculator(grades map[string]int) float64{
